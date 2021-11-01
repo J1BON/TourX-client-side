@@ -1,0 +1,26 @@
+.add-pakages {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+.add-service h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(255, 136, 0, 0.931);
+  margin: 20px;
+}
+
+.add-pakages input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  background: rgba(128, 128, 128, 0.212);
+}
+
+.add-pakages input.sub-btn {
+  background: rgba(255, 136, 0, 0.931);
+  color: #fff;
+  font-weight: 700;
+}

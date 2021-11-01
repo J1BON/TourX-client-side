@@ -9,7 +9,7 @@ const Detail = () => {
   const [pakage, setPakage] = useState([]);
   const { detailId } = useParams();
   useEffect(() => {
-    fetch(`http://localhost:5000/pakages/${detailId}`)
+    fetch(`https://stark-forest-89249.herokuapp.com/pakages/${detailId}`)
       .then((res) => res.json())
       .then((data) => setPakage(data));
   }, []);
@@ -17,12 +17,14 @@ const Detail = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    axios.post("http://localhost:5000/orders", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Package booked successfully");
-        reset();
-      }
-    });
+    axios
+      .post("https://stark-forest-89249.herokuapp.com/orders", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Package booked successfully");
+          reset();
+        }
+      });
   };
   const { user } = useAuth();
 

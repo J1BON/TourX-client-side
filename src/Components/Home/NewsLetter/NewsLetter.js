@@ -9,13 +9,13 @@ const NewsLetter = () => {
           Subscribe To Our Newsletter <br /> For Latest Update
         </h1>
         <p>
-          <div class="input-group mb-3">
+          <div className="input-group mb-3">
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               placeholder="Type Your Email"
             />
-            <button class="btn btn-submit" type="button" id="button-addon2">
+            <button className="btn btn-submit" type="button" id="button-addon2">
               SUBSCRIBE
             </button>
           </div>

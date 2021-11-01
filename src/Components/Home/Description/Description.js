@@ -16,25 +16,25 @@ const Description = () => {
         <div className="row g-4">
           <div className="col-sm-12 col-md-6 col-lg-3 detail-item">
             <p>
-              <i class="fas fa-male"></i>
+              <i className="fas fa-male"></i>
             </p>
             <p>2000+ Our worldwide guide</p>
           </div>
           <div className="col-sm-12 col-md-6 col-lg-3 detail-item">
             <p>
-              <i class="far fa-handshake"></i>
+              <i className="far fa-handshake"></i>
             </p>
             <p>100% trusted travel agency</p>
           </div>
           <div className="col-sm-12 col-md-6 col-lg-3 detail-item">
             <p>
-              <i class="fas fa-medal"></i>
+              <i className="fas fa-medal"></i>
             </p>
             <p>10+ year of travel experience</p>
           </div>
           <div className="col-sm-12 col-md-6 col-lg-3 detail-item">
             <p>
-              <i class="far fa-smile-beam"></i>
+              <i className="far fa-smile-beam"></i>
             </p>
             <p>90% of our traveller happy</p>
           </div>

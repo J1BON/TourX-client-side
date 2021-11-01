@@ -5,7 +5,7 @@ import "./Pakages.css";
 const Pakages = () => {
   const [pakages, setpakages] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/pakages")
+    fetch("https://stark-forest-89249.herokuapp.com/pakages")
       .then((res) => res.json())
       .then((data) => setpakages(data));
   }, []);

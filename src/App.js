@@ -4,20 +4,17 @@ import "./App.css";
 import AuthProvider from "./context/AuthProvider";
 import Contact from "./Components/Contact/Contact";
 import Detail from "./Components/Detail/Detail";
-
 import Home from "./Components/Home/Home/Home";
 import Login from "./Components/Login/Login/Login";
 import PrivateRoute from "./Components/Login/PrivateRoute/PrivateRoute";
-
 import NotFound from "./Components/NotFound/NotFound";
 import Register from "./Components/Register/Register";
-
 import Footer from "./Components/Shared/Footer/Footer";
 import Header from "./Components/Shared/Header/Header";
 import AllOrders from "./Components/AllOrders/AllOrders";
 import Myorder from "./Components/myOrder/Myorder";
 import About from "./Components/Home/About/About";
-import Pakages from "./Components/Home/Pakages/Pakages";
+import AddService from "./Components/AddService/AddService";
 
 function App() {
   return (
@@ -41,8 +38,8 @@ function App() {
             <PrivateRoute path="/detail/:detailId">
               <Detail></Detail>
             </PrivateRoute>
-            <PrivateRoute path="/book">
-              <Pakages></Pakages>
+            <PrivateRoute path="/add">
+              <AddService></AddService>
             </PrivateRoute>
             <PrivateRoute path="/manageorders">
               <AllOrders></AllOrders>
