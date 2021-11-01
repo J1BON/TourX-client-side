@@ -11,17 +11,20 @@ const AllorderSingle = ({ order }) => {
   }, []);
 
   const handleDelete = (id) => {
-    const url = `https://stark-forest-89249.herokuapp.com/orders/${id}`;
-    fetch(url, { method: "DELETE" })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        if (data.deletedCount) {
-          //   const reaming = orders.filer((order) => order._id !== id);
-          //   setOrdereds(reaming);
-          alert("Deleted Successfully");
-        }
-      });
+    const proceed = window.confirm("Are you sure,you want to delete?");
+    if (proceed) {
+      const url = `https://stark-forest-89249.herokuapp.com/orders/${id}`;
+      fetch(url, { method: "DELETE" })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          if (data.deletedCount) {
+            //   const reaming = orders.filer((order) => order._id !== id);
+            //   setOrdereds(reaming);
+            alert("Deleted Successfully");
+          }
+        });
+    }
   };
 
   return (

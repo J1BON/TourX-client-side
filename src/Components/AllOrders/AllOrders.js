@@ -9,6 +9,7 @@ const AllOrders = () => {
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, []);
+
   return (
     <div>
       <h1 className="allorder-title">Manage All Orders</h1>
