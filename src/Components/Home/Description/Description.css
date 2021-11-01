@@ -1,0 +1,42 @@
+.detail-body {
+  background: url(https://www.tourx-react.egenslab.com/static/media/achiv-shape.a7f385e2.png);
+  margin: 100px 0;
+  padding: 80px;
+}
+
+.detail-title h4 {
+  color: #ff8048;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.detail-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.detail-item {
+  background: #315048;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.detail-item p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+.detail-item p i {
+  margin-top: 10px;
+  font-size: 60px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .detail-body {
+    padding: 30px;
+  }
+}

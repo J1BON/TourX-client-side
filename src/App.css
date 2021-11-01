@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
+  font-family: "Quicksand", sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +23,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.total {
+  overflow-x: hidden;
 }
 
 .App-link {

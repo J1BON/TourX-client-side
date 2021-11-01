@@ -1,0 +1,14 @@
+.contact {
+  background: url(https://www.tourx-react.egenslab.com/static/media/achiv-shape.a7f385e2.png);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.contacts {
+  color: white;
+  background-color: #315048;
+  padding: 30px;
+  border-radius: 10px;
+}

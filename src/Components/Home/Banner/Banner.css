@@ -1,0 +1,86 @@
+.slider1,
+.slider2,
+.slider3 {
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.slider1 {
+  background: linear-gradient(
+      rgba(48, 79, 71, 0.65) 100%,
+      rgba(48, 79, 71, 0.65) 0
+    ),
+    url(https://www.tourx-react.egenslab.com/static/media/banner-3.ff884c34.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider2 {
+  background: linear-gradient(
+      rgba(48, 79, 71, 0.65) 100%,
+      rgba(48, 79, 71, 0.65) 0
+    ),
+    url(https://www.tourx-react.egenslab.com/static/media/banner-4.1478080c.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider3 {
+  background: linear-gradient(
+      rgba(48, 79, 71, 0.65) 100%,
+      rgba(48, 79, 71, 0.65) 0
+    ),
+    url(https://www.tourx-react.egenslab.com/static/media/banner-1.0158ff1d.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-item {
+  padding: 50px;
+  position: relative;
+  left: 350px;
+}
+
+.banner-item h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner-item h5 {
+  font-size: 30px;
+  color: rgb(255, 127, 71);
+  font-weight: 700;
+}
+
+.banner-item button {
+  border: none;
+  background: #304f47;
+  color: #fff;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.banner-item button:hover {
+  background: orange;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-item h1 {
+    font-size: 50px;
+  }
+  .banner-item h5 {
+    font-size: 20px;
+    margin: 20px 0px;
+  }
+  .banner-item button {
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .banner-item {
+    padding: 50px;
+    position: relative;
+    left: 0px;
+  }
+}
